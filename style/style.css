@@ -1,0 +1,258 @@
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background:#1F2937;
+}
+
+.title{
+    margin-top: 164px;
+    margin-left: 52px;
+    max-width: 354px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+.title strong{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: #10B981;
+}
+
+.disc{
+    margin-top: -20px;
+    margin-left: 52px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight:lighter;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Medium grey */
+
+color: #D5D4D8;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 52px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+
+width: 223px;
+height: 42px;
+
+border: none;
+
+background: #10B981;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+transition: 0.5s;
+}
+
+.blob-one{
+    position: absolute;
+    width: 300px;
+    margin-left: 1000px;
+    /* margin-right: 00px;/ */
+}
+.blob-two{
+    position: absolute;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 900px;
+    /* margin-right: 00px;/ */
+}
+
+button:hover{
+    background: #379978;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 30px;
+    border: 1px solid #2F3E53;
+    opacity:1;
+    margin-left: 45px;
+    width: 600px;
+}
+
+button h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+}
+
+button img{
+    width: 18px;
+    height: 184px;
+}
+
+.password-holder{
+    display:inline-grid;
+    grid-template-columns:auto auto ; 
+    gap: 30px;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+
+
+
+#holder-one{
+    /* text-align: center; */
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #55F991;
+transition: 0.5s;
+}
+#holder-two{
+transition: 0.5s;
+
+    text-align: center;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #55F991;
+}
+#holder-three{
+transition: 0.5s;
+
+    text-align: center;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #55F991;
+}
+#holder-four{
+transition: 0.5s;
+
+    text-align: center;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #55F991;
+
+
+
+}
+
+#holder-one:hover{
+    cursor: pointer;
+    background: #273e499c;
+    transform: scale(1.1);
+}
+#holder-two:hover{
+    cursor: pointer;
+    background: #2735499c;
+    transform: scale(1.1);
+}
+#holder-three:hover{
+    cursor: pointer;
+    background: #2735499c;
+    transform: scale(1.1);
+}
+#holder-four:hover{
+    cursor: pointer;
+    background: #2735499c;
+    transform: scale(1.1);
+}
+
+#holder-one p{
+    max-width: 10px;
+}
+#holder-two p{
+    max-width: 10px;
+}
+#holder-three p{
+    max-width: 10px;
+}
+#holder-four p{
+    width: 10px;
+}
